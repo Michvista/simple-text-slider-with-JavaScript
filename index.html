@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  #wrapper{
+    width: 600px;
+    height:250px;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .testi{
+    width: 150px;
+    height: 50px;
+    background:orange;
+    color: white;
+  }
+  button{
+    position:relative;
+    left: -40%;
+    transform: translateY(140%)
+  }
+  #prev{
+    background: transparent;
+    border: 1px solid black;
+  }
+  #next{
+    background: forestgreen;
+    border: orangered;
+  }
+  #prev:hover,
+  #next:hover{
+    background: orange;
+  }
+</style>
+<body>
+<div class="container" id="cont">
+  <div id="wrapper">
+  </div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
